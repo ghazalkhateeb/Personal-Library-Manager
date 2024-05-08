@@ -15,7 +15,10 @@ Python 3.x installed on your system.
 
 Installation:
 Clone the repository to your local machine:
-git clone https://github.com/ghazalkhateeb/Personal-Library-Manager.git
+git clone https:
+<pre>
+//github.com/ghazalkhateeb/Personal-Library-Manager.git
+<pre>
 
 Navigate to the project directory:
 cd directory path
@@ -33,20 +36,30 @@ python main.py add --title "Book Title" --author "Author Name" --year "Publicati
 <pre>
 
 Delete a Book:
+<pre>
 python main.py delete --title "Book Title"
+<pre>
 
 Edit a Book:
+<pre>
 python main.py edit --title "Book Title" [--author "New Author Name"] [--year "New Publication Year"] [--genre "New Book Genre"]
+<pre>
 
 Display Library:
+<pre>
 python main.py display
+<pre>
 
 Save Library:
+<pre>
 python main.py save
+<pre>
 
 
 Delete All Books:
+<pre>
 python main.py deleteall
+<pre>
 
 Contributing
 Contributions are welcome! If you encounter any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
