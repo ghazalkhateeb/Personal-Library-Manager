@@ -2,6 +2,8 @@
 
 This Python application is a simple library management system that allows users to perform various operations on a virtual library through the terminal. Users can add, delete, edit, display, save, or delete all books in the library.
 
+
+
 **Features**
 
 Add Book: Add a new book to the library.
@@ -10,6 +12,8 @@ Edit Book: Modify the details of a book in the library.
 Display Library: View the details of all books in the library.
 Save Library: Save the current state of the library to a file.
 Delete All: Remove all books from the library.
+
+
 
 **How to Use:**
 
@@ -25,6 +29,7 @@ cd directory path
 
 Install dependencies using pip:
 pip install -r requirements.txt
+
 
 
 **Usage:**
@@ -53,6 +58,8 @@ python main.py save
 **Delete All Books:**
 
 python main.py deleteall
+
+
 
 **Contributing**
 Contributions are welcome! If you encounter any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
