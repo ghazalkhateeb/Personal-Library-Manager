@@ -28,7 +28,9 @@ Usage:
 To interact with the library management system, use the command-line interface (CLI) provided. Below are the available commands:
 
 Add a Book:
-'python main.py add --title "Book Title" --author "Author Name" --year "Publication Year" --genre "Book Genre"'
+<pre>
+python main.py add --title "Book Title" --author "Author Name" --year "Publication Year" --genre "Book Genre" 
+<pre>
 
 Delete a Book:
 python main.py delete --title "Book Title"
