@@ -36,29 +36,32 @@ pip install -r requirements.txt
 To interact with the library management system, use the command-line interface (CLI) provided. Below are the available commands:
 
 ## Add a Book:
-
+```
 python main.py add --title "Book Title" --author "Author Name" --year "Publication Year" --genre "Book Genre"
-
+```
 ## Delete a Book:
-
+```
 python main.py delete --title "Book Title"
-
+```
 ## Edit a Book:
-
+```
 python main.py edit --title "Book Title" [--author "New Author Name"] [--year "New Publication Year"] [--genre "New Book Genre"]
-
+```
 ## Display Library:
-
+```
 python main.py display
+```
 
 ## Save Library:
-
+```
 python main.py save
+```
 
 ## Delete All Books:
 
+```
 python main.py deleteall
-
+```
 
 
 ## Contributing
