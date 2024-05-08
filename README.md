@@ -35,8 +35,8 @@ python main.py add --title "Book Title" --author "Author Name" --year "Publicati
 ```bash
 python main.py add --title "Book Title" --author "Author Name" --year "Publication Year" --genre "Book Genre" 
 
-
-Delete a Book:
+###Delete a Book:
+```bash
 python main.py delete --title "Book Title"
 
 Edit a Book:
