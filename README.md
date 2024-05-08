@@ -47,9 +47,11 @@ python main.py edit --title "Book Title" [--author "New Author Name"] [--year "N
 python main.py display
 
 **Save Library:**
+
 python main.py save
 
 **Delete All Books:**
+
 python main.py deleteall
 
 **Contributing**
