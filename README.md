@@ -1,10 +1,10 @@
-# Library Management System
+## Library Management System
 
 This Python application is a simple library management system that allows users to perform various operations on a virtual library through the terminal. Users can add, delete, edit, display, save, or delete all books in the library.
 
 
 
-**Features**
+## Features
 
 Add Book: Add a new book to the library.
 Delete Book: Remove a book from the library.
@@ -15,12 +15,12 @@ Delete All: Remove all books from the library.
 
 
 
-**How to Use:**
+## How to Use:
 
 **Prerequisites**
 Python 3.x installed on your system.
 
-**Installation:**
+## Installation:
 Clone the repository to your local machine:
 git clone https://github.com/ghazalkhateeb/Personal-Library-Manager.git
 
@@ -32,36 +32,36 @@ pip install -r requirements.txt
 
 
 
-**Usage:**
+## Usage:
 To interact with the library management system, use the command-line interface (CLI) provided. Below are the available commands:
 
-**Add a Book:**
+## Add a Book:
 
 python main.py add --title "Book Title" --author "Author Name" --year "Publication Year" --genre "Book Genre"
 
-**Delete a Book:**
+## Delete a Book:
 
 python main.py delete --title "Book Title"
 
-**Edit a Book:**
+## Edit a Book:
 
 python main.py edit --title "Book Title" [--author "New Author Name"] [--year "New Publication Year"] [--genre "New Book Genre"]
 
-**Display Library:**
+## Display Library:
 
 python main.py display
 
-**Save Library:**
+## Save Library:
 
 python main.py save
 
-**Delete All Books:**
+## Delete All Books:
 
 python main.py deleteall
 
 
 
-**Contributing**
+## Contributing
 Contributions are welcome! If you encounter any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
 
